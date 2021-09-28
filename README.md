@@ -95,7 +95,7 @@ no acute cardiopulmonary abnormalities.the heart is normal in size and contour. 
 bleu_1: 0.8091872791519434
 ```
 
-運行 ``Evaluate_test(test_data)`` 預測並輸出500筆測試資料的平均評分結果。
+運行 ``Evaluate_test(test_data)`` 預測並輸出500筆測試資料的平均評分結果(約45分鐘)。
 
 ```
 {'rouge-1': 0.9224294936495717,
