@@ -44,7 +44,7 @@ IU X-Ray資料庫 (India University X Ray Dataset) 總共有3,955筆醫生所診
 
 #核心思想
 
-在Bert等Transformer模型中，主要的Normalization方法是Layer Normalization，所以很自然會想到將對應的β和γ變成條件的函數，來控制Transformer模型的生成行為，就是Conditional Layer Normalization，對於已經預訓練好的模型來說，已經有現成的、無條件的β和γ了，它們都是固定的。我們可以通過兩個不同的變換矩陣，將輸入條件變換到跟β、γ一樣 分別的維度，然後將兩個改變結果加到β和γ之後，就能在Bert底下實現image captioning。
+在Bert等Transformer模型中，主要的Normalization方法是Layer Normalization。將其中所對應的β和γ變成條件的函數，來控制Transformer模型的生成行為，就是Conditional Layer Normalization，對於已經預訓練好的模型來說，已經有現成的、無條件的β和γ，它們都是固定的。可以將CNN所提取到的影像特徵，通過兩個不同的變換矩陣，將輸入條件變換到跟β、γ一樣的維度，然後加到β和γ之後，就能在Bert底下實現image captioning。
 
 <img src="https://github.com/Rainman5042/Medical-Image-Captioning-with-BERT/blob/main/CLN.JPG?raw=true" width=100%>
 
