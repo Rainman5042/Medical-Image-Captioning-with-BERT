@@ -48,6 +48,7 @@ IU X-Ray資料庫 (India University X Ray Dataset) 總共有3,955筆醫生所診
 
 <img src="https://github.com/Rainman5042/Medical-Image-Captioning-with-BERT/blob/main/CLN.JPG?raw=true" width=100%>
 
+出處:https://kexue.fm/archives/7124
 
 #模型架構
 
