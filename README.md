@@ -4,13 +4,13 @@
 
 Biomedical Image Report Generation System Based on Deep Learning BERT Language Model.
 
-#運行環境
-
-Windows 7
+#硬體環境
 
 CPU:Intel i7-9700 3.00 GHz
 
 GPU:GTX 2080 Ti
+
+#執行環境
 
 python3.6
 
