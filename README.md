@@ -1,6 +1,6 @@
 # Medical-Image-Captioning-with-BERT
 
-[基於深度學習BERT語言模型之醫療影像報告生成系統](https://drive.google.com/file/d/1BNrEtlaVPoNLgjFw4i5U_ig6kUeeNTFK/view?usp=sharing)
+[基於深度學習BERT語言模型之醫療影像報告生成系統](https://hdl.handle.net/11296/69d8ax)
 
 Biomedical Image Report Generation System Based on Deep Learning BERT Language Model.
 
